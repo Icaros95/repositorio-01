@@ -29,7 +29,7 @@ less: hace todo lo que more, extendiendo su capacidad para navegar por el ficher
 3_
 ~/baseLine2$ ls -sh > currentFiles.txt
 4_
-~/baseLine2$ less currentFiles.txt
+~/baseLine2$ cat currentFiles.txt
 5_
 ~/baseLine2$ cp currentFiles.txt copyCurrentFiles.txt
 6_
@@ -41,5 +41,4 @@ No manual entry for ls
 No manual entry for kill
 8_
 ~/baseLine2$ cp copyCurrentFiles.txt otherCopyCurrentFiles.txt
-9_
 ~/baseLine2$ rm copyCurrentFiles.txt
