@@ -1,7 +1,12 @@
+1
 ~/sampleTest1$ pwd
 /home/runner/sampleTest1
+
+2_
 ~/sampleTest1$ ls
 main.sh       replit.nix
+
+3_
 ~/sampleTest1$ stat main.sh
   File: main.sh
   Size: 40          Blocks: 8          IO Block: 4096   regular file
@@ -11,17 +16,25 @@ Access: 2023-05-22 12:56:02.545212561 +0000
 Modify: 2023-05-22 13:13:57.600299861 +0000
 Change: 2023-05-24 11:32:43.125349640 +0000
  Birth: 2023-05-24 11:32:43.125349640 +0000
-~/sampleTest1$ ls -h
-main.sh       replit.nix
+ 
+4_
 ~/sampleTest1$ ls -sh
 total 12K
 4.0K main.sh       4.0K replit.nix
+
+5_
 ~/sampleTest1$ ls -sh > main-sh
-~/sampleTest1$ ls -sh main.sh
-4.0K main.sh
+
+6_
 ~/sampleTest1$ ls -l main.sh
 -rw-r--r-- 1 runner runner 40 May 22 13:13 main.sh
+
+7_
 ~/sampleTest1$ mkdir newDirectory
 ~/sampleTest1$ cd newDirectory
+
+8_
 ~/sampleTest1/newDirectory$ ps -e > currentProcess
+
+9_
 ~/sampleTest1/newDirectory$ ls >> mis_archivos.txt
