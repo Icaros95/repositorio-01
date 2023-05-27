@@ -1,4 +1,5 @@
-~/baseLine2$ top 
+1_
+~/baseLine2$ top
 top - 11:50:13 up 39 min,  0 users,  load average: 6.24, 9.15, 7.46
 Tasks:   5 total,   1 running,   4 sleeping,   0 stopped,   0 zombie
 %Cpu(s): 17.0 us,  9.2 sy,  0.0 ni, 72.3 id,  0.2 wa,  0.0 hi,  1.4 si,  0.0 st
@@ -17,17 +18,28 @@ MiB Swap:  0.0/0.0      [                                                       
      16 runner    20   0    8024   4700   3528 S   0.0   0.0   0:00.04 bash                           
      42 runner    20   0   10.9g  69944  38220 S   0.0   0.1   0:00.82 bash-language-s                
    2140 runner    20   0    9088   3640   3128 R   0.0   0.0   0:00.00 top              
+2_
 cat / more / less:
-cat: imprime por pantalla el contenido del fichero sin paginación, ni posibilidad de modificación. => Concatena archivos y salida estándar en salida estándar (consola/terminal)
-more: imprime por pantalla el contenido de un fichero, pagina los resultados (puede especificar el número de paginas que se muestran). => primero, muestra todo lo que se puede visualizar sin deslizar y luego, con espaciador, avanzará por el fichero.
+cat: imprime por pantalla el contenido del fichero sin paginaciÃ³n, ni posibilidad de modificaciÃ³n. => Concatena archivos y salida estÃ¡ndar en salida estÃ¡ndar (consola/terminal)
+
+more: imprime por pantalla el contenido de un fichero, pagina los resultados (puede especificar el nÃºmero de paginas que se muestran). => primero, muestra todo lo que se puede visualizar sin deslizar y luego, con espaciador, avanzarÃ¡ por el fichero.
+
 less: hace todo lo que more, extendiendo su capacidad para navegar por el fichero (avance/retroceso) => comandos basados en vi => no necesita leer todo el contenido del fichero antes de abrirlo.
+
+3_
 ~/baseLine2$ ls -sh > currentFiles.txt
+4_
 ~/baseLine2$ less currentFiles.txt
+5_
 ~/baseLine2$ cp currentFiles.txt copyCurrentFiles.txt
+6_
 ~/baseLine2$ rm currentFiles.txt
+7_
 ~/baseLine2$ man ls > manualLs.txt
 No manual entry for ls
 ~/baseLine2$ man kill > manualKill.txt
 No manual entry for kill
+8_
 ~/baseLine2$ cp copyCurrentFiles.txt otherCopyCurrentFiles.txt
+9_
 ~/baseLine2$ rm copyCurrentFiles.txt
